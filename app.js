@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import { sendEmail } from "./utils/sendEmail.js";
 
 const app = express();
 const router = express.Router();
